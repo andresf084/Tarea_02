@@ -8,16 +8,16 @@ Con este ejercicio se pretendia afianzar los conociemientos impartidos sobre la 
 
 HTML son las siglas de:
 
--Hyper
--Text
--Markup
--Language
+- **Hyper**
+- **Text**
+- **Markup**
+- **Language**
 
 ### Hyper Text
-Signofica hipertexto y hace refenrencia auntexto que enñlaza con otros conténidos.
+Significa hipertexto y hace referencia a un texto que enlaza con otros conténidos.
 
 ### Markup
 Significa marca o etiqueta.
 
 ### language
-Su significado es lenguaje
+Su significado es lenguaje.
