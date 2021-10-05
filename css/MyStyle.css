@@ -1,0 +1,301 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+    --BackgroundColor: rgb(139, 131, 131);
+    --PropertyDisplay: inline;
+    --LeftMargin: 0.625em;
+    --TopMargin: 0.625em;
+    --Padding: 1em;
+    --Border: 1em;
+    --FontSize: 0.625em;
+}
+body {
+    background-image: url(/assets/images/FondoGrisLineaOblicua.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.Profile__Background {
+    background-image: url(/assets/images/FondeVerdeNegro3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.Nav__Style {
+    align-items: left;
+    display: block;
+    background-color:dimgray;
+    padding: var(--Padding);
+    border: var(--Border);
+}
+
+.Nav__Style--Modif {
+    color: white;
+    display: inline-block;
+    width: 200px;
+}
+
+nav > a:hover {
+    font-weight: bold;
+}
+
+.Profile__Image {
+    display: inline-block;
+}
+
+.Pofile__Image--Modif {
+    /*display: var(--PropertyDisplay);*/
+    width: 254px;
+    height: 247px;
+    margin-left: var(--LeftMargin);
+    margin-top: var(--TopMargin);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Profile__Tittle {
+    display: inline-block;
+    position: absolute;
+}
+
+.Profile__Tittle--Modif {
+    color: white;
+    display: inline-block;
+    /*position:absolute;*/
+    margin-top: var(--TopMargin);
+    font-size: 3em;
+    font-weight: bolder;
+    
+}
+
+.Profile__Subtittle--Modif {
+    background-color: turquoise;
+    color: white;
+    font-size: 2em;
+    
+}
+
+.Contact__Information--Style {
+    background-color: var(--BackgroundColor);
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+    position: fixed;
+    float: right;
+    top: 750px;
+    right: 20px;
+    z-index: 999;
+    padding: 10px;
+    border: 10px;
+    border-radius: 5px;
+    display: inline;
+}
+
+ul > li > a {
+    color: white;
+}
+
+.Description__Style {
+    margin-top: var(--TopMargin);
+    margin-bottom: var(--TopMargin);
+    margin-left: 5px;
+    padding: 8px;
+    border: 8px;
+    font-size: 2em;
+    font-family: fantasy;
+    display: flex;
+}
+
+.Description__Style--Font {
+    margin: var(--TopMargin);
+    padding: var(--Padding);
+    border: var(--Border);
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.Company__Info {
+    margin: 20px 5px;
+    padding: 10px;
+    border: 10px;
+}
+
+.Company__Image {
+    display: block;
+    width: 232px;
+    height: 93px;
+}
+
+.Company__Image--Corona {
+    display: block;
+    width: 295px;
+    height: 43px;
+}
+
+.Company__Name {
+    font-size: 2em;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(88, 200, 161);
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+.SubtittleSection__Style {
+    display: block;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+.DescriptionSection__Style {
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.HorizontalLine__Style--laboral {
+    display: block;
+    height:2px;
+    width: 50%;
+    text-align:left;
+    margin-left:0;
+    border-width:0;
+    color:rgb(88, 200, 161);
+    background-color:rgb(88, 200, 161);
+}
+
+.HorizontalLine__Style--Sections {
+    display: block;
+    height: 5px;
+    width: 75%;
+    text-align:center;
+    border-width:0;
+    color:dimgray;
+    background-color:dimgray;
+    padding: 5px;
+    border: 5px;
+}
+
+.Academic__Info {
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px;
+}
+
+.Academic_Image {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+div img {
+    width: 280px;
+    height: 140px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin: var(--LeftMargin);
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+section {
+    margin: var(--TopMargin);
+    padding: var(--Padding);
+}
+
+.Footer__Style {
+    background-color: dimgray;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.Footer__Image--Style {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+
+@media (max-width: 300px) {
+    .Contact__Information--Style {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 300px) {
+    .SubtittleSection__Style {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 300px) {
+    .DescriptionSection__Style {
+        font-size: 2em;
+    }
+}
