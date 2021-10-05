@@ -1,10 +1,10 @@
 Documentación del ejercicio
 
-#EJERCICO No. 2
+# EJERCICO No. 2
 
 Con este ejercicio se pretendia afianzar los conociemientos impartidos sobre la web semantica en **HTML** y los estilos en **css**, se usó la metodología **BEM** en el código de los estilos, por lo tanto se crearon varias clases y algunas se pudieron re utilizar porque en las secciones se usaron las mismas propiedades.
 
-##¿Qué es HTML?
+## ¿Qué es HTML?
 
 HTML son las siglas de:
 
@@ -13,11 +13,11 @@ HTML son las siglas de:
 -Markup
 -Language
 
-###Hyper Text
+### Hyper Text
 Signofica hipertexto y hace refenrencia auntexto que enñlaza con otros conténidos.
 
-###Markup
+### Markup
 Significa marca o etiqueta.
 
-###language
+### language
 Su significado es lenguaje
